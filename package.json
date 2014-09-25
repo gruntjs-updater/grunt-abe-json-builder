@@ -2,7 +2,7 @@
   "name": "grunt-abe-json-builder",
   "version": "0.1.0",
   "description": "Grunt wrapper for abe-json-builder",
-  "main": "src/grunt-abe-json-builder.js",
+  "main": "tasks/grunt-abe-json-builder.js",
   "scripts": {
     "test": "grunt test"
   },
@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git://github.com/apibyexample/grunt-abe-json-builder.git"
   },
+  "keywords": [
+    "abe",
+    "json",
+    "gruntplugin",
+    "grunt"
+  ],
   "author": "API By Example <apibyexample@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -17,7 +23,8 @@
   },
   "homepage": "https://github.com/apibyexample/grunt-abe-json-builder",
   "dependencies": {
-    "abe-json-builder": "~0.1.0"
+    "abe-json-builder": "~0.1.0",
+    "lodash-node": "~2.4.1"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
