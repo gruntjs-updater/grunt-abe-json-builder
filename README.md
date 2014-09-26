@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/apibyexample/grunt-abe-json-builder.svg?branch=master)](https://travis-ci.org/apibyexample/grunt-abe-json-builder)
-[![Dependency Status](https://david-dm.org/apibyexample/grunt-abe-json-builder/status.svg)](https://david-dm.org/apibyexample/grunt-abe-json-builder#info=dependencies)
 [![devDependency Status](https://david-dm.org/apibyexample/grunt-abe-json-builder/dev-status.svg)](https://david-dm.org/apibyexample/grunt-abe-json-builder#info=devDependencies)
 [![peerDependency Status](https://david-dm.org/apibyexample/grunt-abe-json-builder/peer-status.svg)](https://david-dm.org/apibyexample/grunt-abe-json-builder#info=peerDependencies)
 [![Monthly downloads](http://img.shields.io/npm/dm/grunt-abe-json-builder.svg)](https://www.npmjs.org/package/grunt-abe-json-builder)
