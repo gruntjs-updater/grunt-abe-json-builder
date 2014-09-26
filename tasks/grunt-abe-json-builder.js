@@ -4,7 +4,8 @@ var lodash = require('lodash-node'),
 module.exports = function (grunt) {
     grunt.task.registerMultiTask('abe-json-builder', function () {
         // Warn task if "location" and/or "build" is not passed
-        var opt = this.options();
+        var opt = this.options(),
+            done = this.async();
 
         if (lodash.isEmpty(opt.location)) {
             grunt.fail.warn('location option is required.');
@@ -14,7 +15,7 @@ module.exports = function (grunt) {
             grunt.fail.warn('build option is required.');
         }
 
-        jsonBuilder.jsonBuilder(opt);
+        jsonBuilder.jsonBuilder(opt, done);
         grunt.log.writeln('ABE JSON files body responses have been split');
     });
 };
