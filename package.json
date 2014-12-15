@@ -1,6 +1,6 @@
 {
   "name": "grunt-abe-json-builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Grunt wrapper for abe-json-builder",
   "main": "tasks/grunt-abe-json-builder.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/apibyexample/grunt-abe-json-builder",
   "dependencies": {
-    "abe-json-builder": "~0.1.1",
+    "abe-json-builder": "~0.1.4",
     "lodash-node": "~2.4.1"
   },
   "devDependencies": {
